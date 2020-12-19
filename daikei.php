@@ -7,7 +7,10 @@ $top = 10;
 $bottom = 20;
 $height = 30;
 if (is_numeric($top) && is_numric($bottom) && is_numeric($height)) {
-$area = trapezoid($top, $bottom, $height);
+	$area = trapezoid($top, $bottom, $height);
+} else {
+	$area = null;
+}
 ?>
 <!DOCTYPE html>
 <html lang="ja">
