@@ -9,9 +9,10 @@ if (isset($_GET['key'])) {
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<title>サブ課題2-1</title>
+<title>formを使わずにget送信2</title>
 </head>
 <body>
-<?= $result; ?>
+<?= $result; ?><br>
+<a href="foods.php">戻る</a>
 </body>
 </html>
