@@ -9,7 +9,7 @@ $foods = array(
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<title>サブ課題2</title>
+<title>formを使わずにget送信</title>
 </head>
 <body>
 <?php foreach ($foods as $key => $food) : ?>
