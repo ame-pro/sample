@@ -13,7 +13,7 @@ $foods = array(
 </head>
 <body>
 <?php foreach ($foods as $key => $food) : ?>
-<a href="./result.php?key=<?= $key; ?>">
+<a href="result.php?key=<?= $key; ?>">
 <?= $food . '<br>'; ?></a>
 <?php endforeach; ?>
 </body>
