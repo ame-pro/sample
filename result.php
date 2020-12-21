@@ -2,7 +2,7 @@
 if (isset($_GET['key'])) {
 	$result = $_GET['key'];
 } else {
-	$result = '未入力です。';
+	$result = '不正なアクセスです。';
 }
 ?>
 <!DOCTYPE html>
